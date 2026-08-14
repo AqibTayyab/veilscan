@@ -1,0 +1,7 @@
+# VeilScan v2.0 — Optional Dependencies
+#
+# VeilScan's core scanner requires NO external libraries.
+# Everything uses Python stdlib: socket, threading, ssl, csv, json, html.
+#
+# Install this for better terminal colors on Windows:
+colorama>=0.4.6

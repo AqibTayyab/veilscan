@@ -1,0 +1,61 @@
+[build-system]
+requires      = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name            = "veilscan"
+version         = "2.0.0"
+description     = "Professional multi-protocol network security audit tool with HTML reporting"
+readme          = "README.md"
+license         = { text = "MIT" }
+requires-python = ">=3.10"
+keywords        = ["port-scanner","network","security","tcp","udp","reconnaissance","audit"]
+authors         = [{ name = "Aqib Tayyab" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: System :: Networking :: Monitoring",
+]
+
+# No mandatory external dependencies — pure Python stdlib
+dependencies = []
+
+[project.optional-dependencies]
+ui  = ["colorama>=0.4.6"]
+dev = [
+    "pytest>=7.4",
+    "pytest-mock>=3.11",
+    "pytest-cov>=4.1",
+    "black>=23.0",
+    "mypy>=1.5",
+]
+
+# CLI entry point — imports from veilscan.cli so it works after pip install
+[project.scripts]
+veilscan = "veilscan.__main__:main"
+
+[project.urls]
+Homepage      = "https://github.com/AqibTayyab/veilscan"
+Repository    = "https://github.com/AqibTayyab/veilscan"
+"Bug Tracker" = "https://github.com/AqibTayyab/veilscan/issues"
+
+# Only install the veilscan/ package — not root-level files
+[tool.setuptools.packages.find]
+where   = ["."]
+include = ["veilscan*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers   = ["integration: requires live network access"]
+
+[tool.black]
+line-length    = 90
+target-version = ["py310"]

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Test / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# VeilScan outputs — don't commit scan results
+reports/*.html
+reports/*.json
+reports/*.csv
+logs/*.log
+
+# OS
+.DS_Store
+Thumbs.db
