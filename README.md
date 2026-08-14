@@ -1,13 +1,13 @@
-<div align="center">
+  <div align="center">
 
-```
- ██╗   ██╗███████╗██╗██╗     ███████╗ ██████╗ █████╗ ███╗   ██╗
- ██║   ██║██╔════╝██║██║     ██╔════╝██╔════╝██╔══██╗████╗  ██║
- ██║   ██║█████╗  ██║██║     ███████╗██║     ███████║██╔██╗ ██║
- ╚██╗ ██╔╝██╔══╝  ██║██║     ╚════██║██║     ██╔══██║██║╚██╗██║
-  ╚████╔╝ ███████╗██║███████╗███████║╚██████╗██║  ██║██║ ╚████║
-   ╚═══╝  ╚══════╝╚═╝╚══════╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝
-```
+  ```
+   ██╗   ██╗███████╗██╗██╗     ███████╗ ██████╗ █████╗ ███╗   ██╗
+   ██║   ██║██╔════╝██║██║     ██╔════╝██╔════╝██╔══██╗████╗  ██║
+   ██║   ██║█████╗  ██║██║     ███████╗██║     ███████║██╔██╗ ██║
+   ╚██╗ ██╔╝██╔══╝  ██║██║     ╚════██║██║     ██╔══██║██║╚██╗██║
+    ╚████╔╝ ███████╗██║███████╗███████║╚██████╗██║  ██║██║ ╚████║
+     ╚═══╝  ╚══════╝╚═╝╚══════╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝
+  ```
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00FF41&background=0D1117&center=true&vCenter=true&width=700&lines=Professional+Network+Security+Audit+Tool+v2.0;TCP+%2B+UDP+Scanning+%7C+Banner+Grabbing+%7C+OS+Fingerprinting;42-Entry+Vulnerability+Hints+Database;368+Tests+Passing+%7C+Zero+Mandatory+Dependencies;Built+for+Beginners+%E2%80%94+Powered+for+Professionals" alt="Typing SVG" />
 
